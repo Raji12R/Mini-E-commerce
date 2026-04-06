@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛒 Mini E-Commerce</h1>
+
+<div id="products"></div>
+
+<h2>Cart</h2>
+<ul id="cart"></ul>
+
+<h3>Total: ₹<span id="total">0</span></h3>
+
+<script src="script.js"></script>
+<button onclick="checkout()">Checkout</button>
+
+<div id="resultPage" style="display:none;">
+    <h2>🧾 Order Summary</h2>
+    <p id="totalItems"></p>
+    <p id="finalAmount"></p>
+    <h3>🎉 Thank you for your purchase!</h3>
+</div>
+</body>
+</html>
